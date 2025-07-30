@@ -8,22 +8,22 @@
 
 ## ディレクトリ構成
 ```
-project/
-├─ public/                  # ビルド後そのままコピーされるファイル (画像など)
-│   └─ images/
-│        ├─ logo.png
-│        └─ bg.jpg
-├─ src/
-│   ├─ partials/            # HTMLパーシャル（ヘッダーやフッター等）
-│   │    ├─ head.hbs
-│   │    └─ header.hbs
-│   ├─ assets/
-│   │    ├─ style.scss      # Sassエントリーポイント
-│   │    └─ _variables.scss # Sass変数・共通スタイル
-│   ├─ main.js              # JSエントリーポイント
-│   └─ index.html           # 開発のルートHTML
-├─ dist/                    # ビルド後の納品用ディレクトリ（自動生成）
-└─ vite.config.js           # Vite設定
+    project/
+    ├─ public/                  # ビルド後そのままコピーされるファイル (画像など)
+    │   └─ images/
+    │        ├─ logo.png
+    │        └─ bg.jpg
+    ├─ src/
+    │   ├─ partials/            # HTMLパーシャル（ヘッダーやフッター等）
+    │   │    ├─ head.hbs
+    │   │    └─ header.hbs
+    │   ├─ assets/
+    │   │    ├─ style.scss      # Sassエントリーポイント
+    │   │    └─ _variables.scss # Sass変数・共通スタイル
+    │   ├─ main.js              # JSエントリーポイント
+    │   └─ index.html           # 開発のルートHTML
+    ├─ dist/                    # ビルド後の納品用ディレクトリ（自動生成）
+    └─ vite.config.js           # Vite設定
 ```
 
 ## 開発環境の使い方
