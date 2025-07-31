@@ -42,7 +42,7 @@
 
 ## 開発のルール・注意点
 1. HTML（Handlebars）
-- 共通パーツは src/partials にパーシャルとして作成
+- 共通パーツは src/partials にパーシャルとして作成(ファイル拡張子は.hbs)
 
     index.html から呼び出し例：
         {{> head }}

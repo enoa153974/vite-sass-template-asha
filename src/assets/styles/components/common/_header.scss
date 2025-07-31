@@ -1,72 +1,7 @@
-@use '../../foundation/import' as *;
-
-/* TOPページ以外のヘッダーのデザイン */
-.header .header__container {
+.header__container{
     height: var(--header-height);
-    padding: 0;
+}
 
-    @include media-query(md) {
-        height: var(--sp-header-height);
-    }
-
-    .header__inner {
-        padding: 0 5%;
-
-        .header__nav {
-            .header__brush {
-                aspect-ratio: 2/1.2;
-                max-width: 180px;
-                min-width: 90px;
-                transform: rotate(230deg);
-                transition: rotate ease 0.5s;
-            }
-
-            .header__brush:hover {
-                transform: rotate(210deg);
-            }
-
-            /* homeボタン */
-            li:nth-child(4) {
-                border: var(--sub-color) solid 1px;
-                background: var(--sub-color);
-                aspect-ratio: 2/1.2;
-                max-width: 150px;
-                border-radius: 50%;
-                font-size: 1.5rem;
-                letter-spacing: 0.08em;
-            }
-
-            /* aboutボタン */
-            li:nth-child(5) {
-                border: var(--main-color) solid 1px;
-                background: var(--main-color);
-                aspect-ratio: 2/1.2;
-                max-width: 150px;
-                border-radius: 50%;
-                font-size: 1.5rem;
-                letter-spacing: 0.08em;
-            }
-
-            /* worksボタン */
-            li:nth-child(6) {
-                border: var(--accent-color) solid 1px;
-                background: var(--accent-color);
-                aspect-ratio: 2/1.2;
-                max-width: 150px;
-                border-radius: 50%;
-                font-size: 1.5rem;
-                letter-spacing: 0.08em;
-            }
-
-            /*              contact用   
-                    li:nth-child(4) {
-                        border: white solid 1px;
-                        background:white;
-                    } */
-        }
-    }
-
-    .hamburger {
-        display: none;
-    }
+.hamburger{
+    display: none;
 }
