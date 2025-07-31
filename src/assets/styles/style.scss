@@ -32,14 +32,11 @@
  *  file import (components/common)
  * ---------------------------- */
 @use 'components/common/header';
-@use 'components/common/top-header';
 @use 'components/common/footer';
 /* -------------------------------
  *  file import (components/section)
  * ---------------------------- */
-@use 'components/sections/services';
-@use 'components/sections/cta-image-link';
-@use 'components/sections/gallery';
+
 /* -------------------------------
  *  file import (components/ui)
  * ---------------------------- */
