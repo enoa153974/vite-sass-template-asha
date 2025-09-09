@@ -19,6 +19,36 @@
 @use 'layout/module';
 
 /* -------------------------------
+ *  file import (components/common)
+ * ---------------------------- */
+@use 'components/common/header';
+@use 'components/common/footer';
+/* -------------------------------
+ *  file import (components/section)
+ * ---------------------------- */
+@use 'components/sections/hero';
+@use 'components/sections/features';
+@use 'components/sections/voices';
+@use 'components/sections/hero-sample';
+/* -------------------------------
+ *  file import (components/ui)
+ * ---------------------------- */
+/* ハンバーガーメニューcss */
+@use 'components/ui/hamburger';
+/* アコーディオンメニューcss/デザイン-base */
+@use 'components/ui/accordion';
+/* アコーディオンメニューcss/デザイン-caregory */
+@use 'components/ui/accordion-category';
+/* スライダー（カルーセル）css */
+@use 'components/ui/slider-arrow';
+/* スライダー（カルーセル）css */
+@use 'components/ui/gallery-slider';
+/* タブメニューcss */
+@use 'components/ui/tab-menu';
+/* パンくずリストのcss */
+@use 'components/ui/breadcrumb';
+
+/* -------------------------------
  *  file import (utility)
  * ---------------------------- */
 /* ユーティリティクラス */
@@ -27,24 +57,9 @@
 @use 'utility/button';
 /* ボタンの上書きデザイン */
 @use 'utility/button-overrides';
-
-/* -------------------------------
- *  file import (components/common)
- * ---------------------------- */
-@use 'components/common/header';
-@use 'components/common/footer';
-/* -------------------------------
- *  file import (components/section)
- * ---------------------------- */
-
-/* -------------------------------
- *  file import (components/ui)
- * ---------------------------- */
-/* ハンバーガーメニューcss */
-@use 'components/ui/hamburger';
-/* スライダー（カルーセル）css */
-@use 'components/ui/gallery-slider';
-/* パンくずリストのcss */
-@use 'components/ui/breadcrumb';
-
-
+/* marginクラス */
+@use 'utility/margin';
+/* paddingクラス */
+@use 'utility/padding';
+/* 装飾用クラス */
+@use 'utility/decoration';
